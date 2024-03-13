@@ -1,0 +1,27 @@
+{
+    "101": {
+        "Name": "Jet-Pack",
+        "Price": 10,
+        "Quantity": 30
+    },
+    "102": {
+        "Name": "5 Star",
+        "Price": 5,
+        "Quantity": 45
+    },
+    "103": {
+        "Name": "Dairy Milk",
+        "Price": 10,
+        "Quantity": 50
+    },
+    "104": {
+        "Name": "Lays",
+        "Price": 10,
+        "Quantity": 100
+    },
+    "105": {
+        "Name": "MilkyBar",
+        "Price": 10,
+        "Quantity": 100
+    }
+}

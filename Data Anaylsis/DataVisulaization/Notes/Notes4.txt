@@ -1,0 +1,42 @@
+Bivariate Analysis numerical-categorical
+
+📈 Bivariate analysis is a powerful technique that helps us explore and understand relationships between two different types of variables: numerical and categorical. In this article, we will delve into the world of bivariate analysis with a focus on the interaction between numerical and categorical data. By examining how these two types of variables relate to each other, we can uncover valuable insights and make more informed decisions.
+
+Bivariate Analysis: Combining Numerical and Categorical Data
+Bivariate analysis allows us to investigate how a numerical variable changes in response to different categories within a categorical variable. This type of analysis is particularly valuable in a wide range of fields, from finance and marketing to healthcare and social sciences.
+
+🔍 Consider a few scenarios where bivariate analysis can be applied:
+
+1️⃣ How does customer satisfaction (categorical) relate to average purchase amount (numerical)?
+
+2️⃣ Are there significant differences in salary (numerical) across different job roles (categorical)?
+
+3️⃣ Does student performance (numerical) vary based on the type of learning environment (categorical)?
+
+By answering these questions, we can gain a deeper understanding of the factors that influence numerical outcomes and make data-driven decisions accordingly.
+
+Bivariate Visualization Techniques
+
+📊 Box Plots by Category:
+
+Box plots can be a powerful way to visualize the distribution of a numerical variable within different categories of a categorical variable. Each box represents a category, and the height of the box, along with the whiskers, provides insights into the central tendency, spread, and potential outliers of the numerical variable for each category.
+
+Example: Analyzing employee salaries by job role, a box plot can reveal whether there are significant differences in salary distributions between roles.
+
+📊 Grouped Bar Charts:
+
+Grouped bar charts display numerical data for different categories side by side as bars. This type of visualization allows for a direct comparison of numerical values across different categorical groups.
+
+Example: Visualizing sales revenue (numerical) for different product categories (categorical) in a retail business can help identify which categories contribute the most to overall revenue.
+
+🎻 Violin Plots:
+
+Violin plots combine aspects of box plots and kernel density plots to visualize the distribution of a numerical variable within categorical groups. They provide insights into both the central tendency and the density of the data.
+
+Example: Studying the distribution of exam scores (numerical) among different schools (categorical), a violin plot can show not only the median scores but also the shape and spread of the score distribution for each school.
+
+📊 Stacked Bar Charts:
+
+Stacked bar charts are useful when you want to show the composition of a numerical variable within different categories of a categorical variable. Each bar is divided into segments representing the numerical values within the category.
+
+Example: Visualizing the allocation of a budget (numerical) across different expense categories (categorical), a stacked bar chart can illustrate the proportion of the budget allocated to each category.

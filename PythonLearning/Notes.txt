@@ -1,0 +1,2 @@
+Pyton is a dynamically Typed programming Language.
+We don't have the datatype of variable before initializing it.

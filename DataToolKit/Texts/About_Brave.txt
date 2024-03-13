@@ -1,0 +1,26 @@
+Brave is a free and open-source web browser developed by Brave Software, Inc. based on the Chromium web browser. Brave is a privacy-focused browser, which automatically blocks most advertisements and website trackers in its default settings. Users can turn on optional ads that reward them for their attention in the form of Basic Attention Tokens (BAT), which can be used as a cryptocurrency or to make payments to registered websites and content creators.[4][5]
+
+Brave Software's headquarters are in San Francisco, California.[1]
+
+As of July 2023, Brave reported more than 59.35 million monthly active users, 22.38 million daily active users and a network of more than 1.6 million content creators.[6]
+
+History
+On 28 May 2015, CEO Brendan Eich and CTO Brian Bondy founded Brave Software.[7] On 20 January 2016, Brave Software launched the first version of Brave with ad-blocking capabilities and announced plans for an ad platform that uses "browser-side anonymous targeting".[8]
+
+In June 2018, Brave released a pay-to-surf test-version of the browser. This version of Brave came preloaded with approximately 250 ads and sent a detailed log of the user's browsing activity to Brave for the short-term purpose of testing this functionality. Brave announced that expanded trials would follow.[9] Later that month, Brave added support for Tor in its desktop browser's private-browsing mode.[10]
+
+Until December 2018, Brave ran on a fork of Electron called Muon, which they marketed as a "more secure fork". Nevertheless, Brave developers moved to Chromium, citing a need to ease their maintenance burden.[11] Brave Software released the final Muon-based version with the intention that it would stop working and instructed users to update as its end-of-life approached.[12]
+
+In December 2018, Brave partnered with HTC to make Brave Browser the default browser on the HTC Exodus 1.[13]
+
+In June 2019, Brave started testing a new ad-blocking rule-matching algorithm implemented in Rust, replacing the previous C++ one. The uBlock Origin and Ghostery algorithms inspired the new logic, which Brave claims to be on average 69 times faster than the previous algorithm.[14]
+
+Brave launched its stable release, version 1.0, on 13 November 2019, while having 8.7 million monthly active users overall.[15] At the time, it had approximately 3 million active users on a daily basis. Brave 1.0, running on Android, iOS, Windows 10, macOS, or Linux, integrated "almost all of Brave's marquee features across all platforms", according to Engadget.[16]
+
+In November 2020, Brave reported having 20 million monthly users,[17] and in September 2021, it passed 36 million monthly active users.[18]
+
+In March 2021, Brave built its search engine out of Tailcat, which it acquired earlier that year from Cliqz, a subsidiary of Hubert Burda Media based in Germany. Tailcat was designed to deliver search results without logging user activity or creating profiles.[19][20]
+
+In April 2021, Brave became the first browser to be added to the Epic Games Store.[21][22]
+
+In June 2021, the public beta for Brave Search, Brave Software's search engine, was launched. It exited its beta phase in June 2022 along with an announcement that within its year-long beta testing period, Brave Search surpassed 2.5 billion total queries.

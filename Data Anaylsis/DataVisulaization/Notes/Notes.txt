@@ -1,0 +1,36 @@
+Here are the graphs used in this Jupyter Notebook:
+
+Bar Graph: A bar graph is used to visualize the count of values in a categorical variable. It is used to compare different categories or groups. Examples of bar graphs used in this notebook include:
+
+Count of neighbourhood_group in the file1 DataFrame.
+Count of room_type in the file1 DataFrame.
+Count of survived in the df DataFrame.
+Count of who in the df2 DataFrame.
+Histogram: A histogram is used to visualize the distribution of a numerical variable. It shows the frequency of values within specific intervals or bins. Examples of histograms used in this notebook include:
+
+Histogram of price in the file1 DataFrame.
+Histogram of availability_365 in the file1 DataFrame.
+Histogram of age in the df2 DataFrame.
+Boxplot: A boxplot is used to display the distribution of a numerical variable and identify outliers. It shows the minimum, first quartile, median, third quartile, and maximum values. Examples of boxplots used in this notebook include:
+
+Boxplot of price in the file1 DataFrame.
+Boxplot of fare in the df2 DataFrame.
+Scatter Plot: A scatter plot is used to visualize the relationship between two numerical variables. It shows the distribution of data points and the correlation between the variables. Examples of scatter plots used in this notebook include:
+
+Scatter plot of price vs. minimum_nights in the file1 DataFrame.
+Scatter plot of price vs. availability_365 in the file1 DataFrame.
+Violin Plot: A violin plot combines a boxplot and a kernel density plot to display the distribution of a numerical variable across different categories. Examples of violin plots used in this notebook include:
+
+Violin plot of fare across different classes in the df2 DataFrame.
+Heatmap: A heatmap is used to visualize the correlation between numerical variables. It uses colors to represent the strength and direction of the correlation. Examples of heatmaps used in this notebook include:
+
+Heatmap of correlation matrix in the file1 DataFrame.
+Heatmap of cross-tabulation between class and who in the df2 DataFrame.
+Count Plot: A count plot is used to visualize the count of values in a categorical variable. It is similar to a bar graph but without the numerical axis. Examples of count plots used in this notebook include:
+
+Count plot of survived in the df2 DataFrame.
+Count plot of who in the df2 DataFrame.
+Pair Plot: A pair plot is used to visualize the pairwise relationships between multiple numerical variables. It shows scatter plots for each pair of variables and histograms for each variable. Example of a pair plot used in this notebook:
+
+Pair plot of sepal_length, sepal_width, petal_length, and petal_width in the df3 DataFrame.
+These are the main types of graphs

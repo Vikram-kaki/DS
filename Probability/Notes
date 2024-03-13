@@ -1,0 +1,24 @@
+Probability is a branch of mathematics that deals with the likelihood of certain events occurring. It is a fundamental concept that is used in many different fields, including data science. In probability, we assign a value between 0 and 1 to an event, where 0 indicates that the event will never occur and 1 indicates that the event will always occur. Events with probabilities between 0 and 1 indicate that they may or may not occur, with a higher probability indicating a greater likelihood of occurrence. Probability can be calculated using the formula:
+
+                                                                                                      P(A) = Number of favourable outcomes / Total number of possible outcomes.
+
+For example, if we have a bag with 5 red marbles and 3 blue marbles, the probability of drawing a red marble is 5/8 (5 favourable outcomes / 8 total marbles).
+
+Probability plays a crucial role in data science, and it is used in many different ways to understand and analyze data, make predictions, and model complex systems. In this article, we will explore some of the ways in which probability is used in data science and the concepts and tools that data scientists use to work with probability with examples.
+
+Statistical Inference: Probability is used in statistical inference to make predictions about future events based on past data. For example, a data scientist might use a normal distribution to model the height of adult males in a population. By understanding the parameters of this distribution, the data scientist can make predictions about the height of an individual man based on a sample of heights from the population.
+
+Machine Learning: Probability is also used in machine learning to estimate the likelihood of certain outcomes and make predictions. For example, a data scientist might use maximum likelihood estimation (MLE) to train a machine learning model to recognize images of dogs. The data scientist would use a set of labelled images of dogs and non-dogs to train the model, and the MLE algorithm would estimate the probability of an image being a dog based on its features.
+
+Bayesian Statistics: Bayesian statistics is a branch of statistics that uses probability to update our beliefs about the world based on new data. For example, a data scientist might use a Bayesian model to predict the success rate of a new product. The data scientist would start with a prior belief about the success rate, and as new data becomes available, the model would update the success rate estimate using Bayes theorem.
+
+Monte Carlo Methods: Monte Carlo methods are a class of computational algorithms that use random sampling to solve mathematical problems. For example, a data scientist might use a Monte Carlo method to estimate the probability of an event occurring in a complex system. The data scientist would simulate the system many times with different random inputs, and the probability of the event occurring would be estimated based on the proportion of simulations in which the event occurred.
+Bayes Theorem: Bayes theorem is a mathematical formula that describes how a belief in an event should change based on new evidence. For example, a data scientist might use Bayes theorem to improve the accuracy of a spam filter. The data scientist would start with a prior belief about the probability of an email being spam, and as new data becomes available, the filter would update its belief about the email using Bayes theorem.
+
+
+In conclusion, probability is an essential concept in data science that is used to understand and analyze data. It is used to make predictions, estimate uncertainty, and model complex systems. Probability distributions, Bayesian statistics, Monte Carlo methods, Markov Chain, and Bayes theorem are important tools that data scientists use to work with probability. Understanding and being able to use these concepts and tools is a valuable skill for data scientists to have in their toolbox.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+

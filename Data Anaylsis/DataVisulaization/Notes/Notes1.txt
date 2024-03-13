@@ -1,0 +1,82 @@
+
+
+Univariate Analysis Non Graphical
+
+Univariate analysis is an essential component of data exploration and analysis. While visualizations like histograms and box plots are commonly used for this purpose, non-graphical methods can provide valuable insights as well. In this article, we'll dive into univariate analysis without relying on graphs, focusing on techniques such as value counts and binning.
+
+Understanding Univariate Analysis
+
+Univariate analysis involves the examination of a single variable in isolation. It allows us to gain insights into the distribution, central tendency, and variability of that variable. Non-graphical univariate analysis techniques are particularly useful when dealing with categorical or discrete data, or when a simplified summary is needed.
+
+Value Counts
+
+Value counts are a straightforward and informative way to analyze the distribution of categorical data. This technique involves counting the occurrences of each unique category or value within a variable. Python's Pandas library provides a convenient method for this: value_counts().
+
+Example:
+
+Suppose you have a dataset containing information about customer satisfaction levels (categories: "High," "Medium," "Low"). You can perform a value count analysis as follows:
+
+Explain
+import pandas as pd
+
+# Sample data
+data = {'Satisfaction': ['High', 'Low', 'Medium', 'High', 'Low', 'Medium', 'Medium', 'Low']}
+df = pd.DataFrame(data)
+
+# Calculate value counts
+value_counts = df['Satisfaction'].value_counts()
+
+# Display the results
+print(value_counts)
+Output: Medium 3
+Low 3
+High 2
+Name: Satisfaction, dtype: int64
+
+Value counts help you understand the frequency of each category, making it easy to identify the most common and rare occurrences within the dataset.
+
+Binning
+Binning is a technique used to convert continuous or numerical data into categorical or discrete intervals (bins or buckets). This simplification allows for easier analysis and interpretation of data. Binning can help reveal patterns or trends in the data distribution.
+
+Example:
+
+Let's say you have a dataset containing the ages of customers. To perform a binning analysis, you can group these ages into age ranges (bins):
+
+Explain
+# Sample data
+data = {'Age': [25, 30, 35, 40, 45, 50, 55, 60, 65, 70]}
+
+# Define bin edges
+bin_edges = [0, 30, 40, 50, 60, 70]
+
+# Create age bins
+age_bins = pd.cut(data['Age'], bins=bin_edges)
+
+# Calculate value counts for the bins
+bin_counts = age_bins.value_counts()
+
+# Display the results
+print(bin_counts)
+
+Output:
+(30, 40] 2
+(40, 50] 2
+(50, 60] 2
+(60, 70] 2
+(0, 30] 1
+Name: Age, dtype: int64
+
+Binning allows you to segment the data into meaningful intervals, making it easier to identify age groups that are more prevalent or to analyze patterns within specific ranges.
+
+Correlation: Correlation is a statistical measure that quantifies the degree of association or relationship between two variables. It is typically used for bivariate analysis but can also be relevant in univariate analysis to explore potential relationships that might exist between different subsets or aspects of a single variable. The correlation coefficient, often denoted as "r," ranges from -1 to 1. A positive value indicates a positive correlation (as one variable increases, the other tends to increase), while a negative value indicates a negative correlation (as one variable increases, the other tends to decrease). A value close to zero suggests little to no linear relationship.
+
+Skewness: Skewness is a measure of the asymmetry of the probability distribution of a variable. It helps identify whether the data is skewed to the left (negatively skewed), where the tail is longer on the left side, or to the right (positively skewed), where the tail is longer on the right side. A perfectly symmetrical distribution has a skewness of 0. Positive skewness (greater than 0) indicates that the data is concentrated on the left side, while negative skewness (less than 0) indicates concentration on the right side.
+
+Kurtosis: Kurtosis is a measure of the "tailedness" of a probability distribution, indicating how much data is in the tails compared to a normal distribution. It helps determine the shape of the distribution and whether it has more or fewer extreme values (outliers) than a normal distribution. A positive kurtosis value (greater than 3) indicates heavier tails and more outliers than a normal distribution (leptokurtic), while a negative value (less than 3) suggests lighter tails (platykurtic). A kurtosis of 3 is often considered the baseline for a normal distribution.
+
+
+
+Mean: The mean, often referred to as the average, is a central measure of location in a dataset. It represents the sum of all data points divided by the number of data points. The mean provides insight into the "typical" or "average" value of the variable. It is sensitive to extreme values (outliers) and can be affected by skewed data. The mean is a measure of central tendency and is commonly used to summarize the center of a univariate dataset.
+
+
+

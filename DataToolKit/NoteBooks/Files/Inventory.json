@@ -1,0 +1,22 @@
+{
+      "101": {
+            "Name": "5 Star",
+            "Price": 5,
+            "Qn": 100
+      },
+      "102": {
+            "Name": "Milky Bar",
+            "Price": 10,
+            "Qn": 0
+      },
+      "103": {
+            "Name": "Dairy Milk",
+            "Price": 20,
+            "Qn": 0
+      },
+      "104": {
+            "Name": "Lays",
+            "Price": 10,
+            "Qn": 50
+      }
+}

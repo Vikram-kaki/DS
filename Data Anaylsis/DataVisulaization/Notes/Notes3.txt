@@ -1,0 +1,31 @@
+Univariate Visualization (Numerical)
+
+📊 Histograms:
+----------------------------------------------
+Histograms are a widely used visualization tool for understanding the distribution of numerical data. They divide the data into intervals or bins and display the frequency or count of data points within each bin using bars. Histograms provide insights into data spread, skewness, and the presence of multiple modes (peaks).
+
+Example: Suppose you have a dataset containing the heights of individuals. A histogram would display the distribution of heights and reveal whether it follows a normal distribution or if there are any notable patterns.
+
+📊 Box Plots (Box-and-Whisker Plots):
+----------------------------------------------
+Box plots provide a graphical summary of the distribution's central tendency, spread, and the presence of outliers. They display a box that represents the interquartile range (IQR) between the first quartile (Q1) and third quartile (Q3), with a line inside denoting the median. "Whiskers" extend from the box to the minimum and maximum data values within a defined range.
+
+Example: When examining a dataset of home prices, a box plot can reveal the variability in prices, potential outliers, and the median price.
+
+📊 Kernel Density Plots:
+----------------------------------------------
+Kernel density plots provide a smoothed representation of the data's probability density function. They offer insights into the data's underlying distribution shape and can be especially useful when visualizing bimodal or multimodal distributions.
+
+Example: If you have a dataset of exam scores, a kernel density plot can help you visualize the distribution of scores and identify any distinct peaks or modes.
+
+📊 Quantile-Quantile (Q-Q) Plots:
+----------------------------------------------
+Q-Q plots compare the quantiles of the dataset to the quantiles of a theoretical distribution (e.g., normal distribution). Deviations from a straight line in the Q-Q plot can indicate departures from the assumed distribution.
+
+Example: When assessing the normality of a dataset of daily stock returns, a Q-Q plot can help identify deviations from a normal distribution, which may have implications for modeling and analysis.
+
+📊 Density Plots:
+----------------------------------------------
+Density plots are similar to histograms but provide a smoothed representation of data density. They can reveal the underlying distribution of data and are useful for identifying data modes and skewness.
+
+Example: In a dataset of customer purchase amounts, a density plot can illustrate the distribution of purchase values, helping to identify common spending patterns.

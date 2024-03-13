@@ -1,0 +1,4 @@
+1,5 Star,5,100
+2,Dairy Milk,10,50
+3,Lays,10,120
+4,Milky Bar,20,80
