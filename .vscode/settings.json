@@ -4,5 +4,8 @@
     "python.languageServer": "Pylance",
     "workbench.editorAssociations": {
         "file:/**/*.csv": "jupyter-data-wrangler"
-    }
+    },
+    "cSpell.enableFiletypes": [
+        "!python"
+    ]
 }
