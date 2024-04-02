@@ -7,5 +7,38 @@
     },
     "cSpell.enableFiletypes": [
         "!python"
+    ],
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled",
+                "ssl": {
+                    "ca": "C:\\Windows.old\\Users\\Asus\\AppData\\Roaming\\Python\\Python311\\site-packages\\jupyter_client\\ssh\\tunnel.py"
+                }
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Vikram",
+            "database": "MyServer",
+            "username": "Vikram",
+            "askForPassword": true
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Testing",
+            "username": "Vikram",
+            "database": "My_Server",
+            "askForPassword": true
+        }
     ]
 }
