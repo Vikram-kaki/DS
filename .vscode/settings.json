@@ -40,5 +40,10 @@
             "database": "My_Server",
             "askForPassword": true
         }
+    ],
+    "cSpell.words": [
+        "Apriori",
+        "DBSCAN",
+        "Likert"
     ]
 }

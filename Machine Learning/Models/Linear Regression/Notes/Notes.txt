@@ -1,0 +1,31 @@
+-> Linear Regression :
+	- Linear regression is a linear approach to modeling the relationship between a scalar response (or dependent variable) and one or more explanatory variables 
+	  (or independent variables). The case of one explanatory variable is called simple linear regression. For more than one explanatory variable, the process is 
+	  called multiple linear regression.
+	- Linear regression is a linear model, e.g. a model that assumes a linear relationship between the input variables (x) and the single output variable (y). 
+	  More specifically, that y can be calculated from a linear combination of the input variables (x).
+	- When there is a single input variable (x), the method is referred to as simple linear regression. When there are multiple input variables, literature from 
+	  statistics often refers to the method as multiple linear regression.
+	- Linear regression is a technique where a straight line is used to model the relationship between input and output values.
+	- In more than two dimensions, this straight line may be thought of as a plane or hyperplane.
+
+
+    * Forward Propagation and Cost Function in Linear Regression :
+	- Forward propagation is the process of moving from the input layer to the output layer in a neural network. It is the process of transforming an input
+	  into an output.
+	- The cost function is a measure of how well the neural network is performing. It is a function that measures the difference between the predicted output
+	  and the actual output. The cost function is used to adjust the weights of the neural network in order to minimize the error.
+	- The cost function is a measure of how well the neural network is performing. It is a function that measures the difference between the predicted output
+	  and the actual output. The cost function is used to adjust the weights of the neural network in order to minimize the error.
+	
+	
+	  Cost Function Formula:
+	  ---------------------
+	  J = 1/2m * Σ (h(x) - y)^2
+	  where,
+	  J = Cost Function
+	  m = Number of training examples
+	  h(x) = Predicted value
+	  y = Actual value
+
+	  

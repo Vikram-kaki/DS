@@ -1,0 +1,113 @@
+What is Machine Learning ?
+
+* Machine learning is a type of artificial intelligence (AI) that provides computers with the ability to learn without being explicitly programmed. 
+Machine learning focuses on the development of computer programs that can change when exposed to new data.
+
+* Machine learning is a subset of artificial intelligence. Machine learning is a data analysis method that automates analytical model building. 
+It is a branch of artificial intelligence based on the idea that systems can learn from data, identify patterns and make decisions with minimal human intervention.
+
+* Machine learning is a method of data analysis that automates analytical model building. It is a branch of artificial intelligence based on the idea that systems 
+can learn from data, identify patterns and make decisions with minimal human intervention.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Types Of Machine Learning :
+
+1. Supervised Learning
+2. Unsupervised Learning
+3. Reinforcement Learning
+
+1. Supervised Learning :
+Supervised learning is the machine learning task of learning a function that maps an input to an output based on example input-output pairs.
+It infers a function from labeled training data consisting of a set of training examples. In supervised learning, each example is a pair consisting of an input object
+(typically a vector) and a desired output value (also called the supervisory signal). A supervised learning algorithm analyzes the training data and produces an
+inferred function, which can be used for mapping new examples. An optimal scenario will allow for the algorithm to correctly determine the class labels for unseen instances.
+This requires the learning algorithm to generalize from the training data to unseen situations in a "reasonable" way.
+
+
+2. Unsupervised Learning :
+Unsupervised learning is a type of machine learning that looks for previously undetected patterns in a data set with no pre-existing labels and with a minimum of 
+human supervision. In contrast to supervised learning that usually makes use of human-labeled data, unsupervised learning, also known as self-organization allows for
+modeling of probability densities over inputs. It forms one of the three main categories of machine learning, along with supervised and reinforcement learning.
+Semi-supervised learning, a related variant, makes use of supervised and unsupervised techniques.
+
+
+3. Reinforcement Learning :
+Reinforcement learning (RL) is an area of machine learning concerned with how software agents ought to take actions in an environment in order to maximize the 
+notion of cumulative reward.Reinforcement learning is one of three basic machine learning paradigms, alongside supervised learning and unsupervised learning. 
+Reinforcement learning differs from supervised learning in not needing labelled input/output pairs be presented, and in not needing sub-optimal actions to be 
+explicitly corrected. Instead the focus is on finding a balance between exploration (of uncharted territory) and exploitation (of current knowledge).
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Types of Data:
+
+1. Labeled Data:
+Labeled data is a group of samples that have been tagged with one or more labels. Labeling typically takes a set of unlabeled data and augments each piece of that
+ data with meaningful tags that are informative. For example, in the case of a piece of text, this could be a sentence, paragraph, or page that has been labeled 
+ with the topics mentioned in the text. Labeled data is used to train supervised machine learning algorithms. In this case, the algorithm learns from the data and 
+ uses the labels to understand the expected outcome of the model.
+
+2. Unlabeled Data:
+Unlabeled data is a group of samples that do not have any labels. This type of data is used to train unsupervised machine learning algorithms. In this case, the
+algorithm tries to learn the patterns in the data and group similar data points together. Unlabeled data is used to train unsupervised machine learning algorithms.
+In this case, the algorithm tries to learn the patterns in the data and group similar data points together.
+
+
+- Nominal data.
+- Ordinal data.
+- Discrete data.
+- Continuous data.
+
+1. Nominal Data:
+Nominal data is a type of data that is used to label variables without providing any quantitative value. It is the simplest form of data. In this type of data,
+the variables are simply names or labels. For example, the types of colors, types of fruits, etc. Nominal data is also known as categorical data.
+
+2. Ordinal Data:
+Ordinal data is a type of data that is used to label variables in such a way that the values can be sorted. It is the second level of measurement. In ordinal data,
+the variables are labels that can be ordered or ranked. For example, a Likert scale (e.g., a 7-point scale from “strongly agree” through to “strongly disagree”).
+
+3. Discrete Data:
+Discrete data is a type of data that consists of whole numbers or counts. It is a type of data that is counted. In this type of data, the values are distinct and 
+separate. For example, the number of students in a class (e.g., 30 students), the number of cars in a parking lot, etc.
+
+4. Continuous Data:
+Continuous data is a type of data that consists of an infinite number of possible values. It is a type of data that is measured. In this type of data, the values
+can be measured and can take any value within a range. For example, the height of a person (e.g., 6 feet), the weight of a person, etc.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Types of Machine Learning Algorithms:
+
+-> Supervised Learning Algorithms:
+1. Linear Regression
+2. Logistic Regression
+3. Decision Tree
+4. Random Forest
+5. Support Vector Machine
+6. Naive Bayes
+7. K-Nearest Neighbors
+8. Neural Networks
+
+
+-> Unsupervised Learning Algorithms:
+1. K-Means Clustering
+2. Hierarchical Clustering
+3. DBSCAN
+4. Gaussian Mixture Models
+5. Principal Component Analysis
+6. Independent Component Analysis
+7. t-Distributed Stochastic Neighbor Embedding
+8. Apriori Algorithm
+
+
+-> Reinforcement Learning Algorithms:
+1. Q-Learning
+2. Deep Adversarial Networks
+3. Deep Deterministic Policy Gradient
+4. Asynchronous Advantage Actor-Critic
+5. Proximal Policy Optimization
+6. Monte Carlo Tree Search
+7. Temporal Difference Learning
+8. Deep Q-Networks
+
