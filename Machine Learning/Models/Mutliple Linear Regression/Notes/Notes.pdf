@@ -1,0 +1,34 @@
+-> Multiple Linear Regression
+	- Multiple linear regression is a statistical technique used to model the relationship between a scalar response (or dependent variable) and one or more 
+	  explanatory variables (or independent variables). The case of one explanatory variable is called simple linear regression. For more than one explanatory variable, the process is
+	  called multiple linear regression.
+	- Multiple linear regression is a linear model, e.g. a model that assumes a linear relationship between the input variables (x) and the single output variable 
+	  (y). More specifically, that y can be calculated from a linear combination of the input variables (x).	
+
+
+
+
+
+
+
+
+
+
+Ordinary Least Squares (OLS) Method : 
+-----------------------------------
+	- The most common method to estimate the coefficients is Ordinary Least Squares (OLS). OLS minimizes the sum of the residuals, the difference between the actual and predicted values of the dependent variable. 
+	- The sum of the residuals is called the Residual Sum of Squares (RSS). The coefficients are chosen such that they minimize the RSS.
+	- The OLS method is used to estimate the unknown parameters in a linear regression model. OLS chooses the parameters of a linear function of a set of explanatory variables by minimizing the sum of the squares of the differences between the target dependent variable and those predicted by the linear function. 
+	- In other words, it tries to minimizes the sum of squared errors (SSE) or mean squared error (MSE) between the target variable (y) and our predicted output (ŷ) over all samples in the dataset.
+	- OLS can find the best parameters using of the following methods:
+		1. Solving the model parameters analytically using closed-form equations
+		2. Using an optimization algorithm (Gradient Descent, Stochastic Gradient Descent, Newton’s Method, etc.)
+	- The OLS method calculates the best-fitting line for the observed data by minimizing the sum of the squares of the vertical deviations from each data point to the line (if a point lies on the fitted line exactly, then its vertical deviation is 0). 
+	- The OLS method is used to estimate the unknown parameters in a linear regression model. OLS chooses the parameters of a linear function of a set of explanatory variables by minimizing the sum of the squares of the differences between the target dependent variable and those predicted by the linear function. 
+	- In other words, it tries to minimizes the sum of squared errors (SSE) or mean squared error (MSE) between the target variable (y) and our predicted output (ŷ) over all samples in the dataset.
+	- OLS can find the best parameters using of the following methods:
+		1. Solving the model parameters analytically using closed-form equations
+		2. Using an optimization algorithm (Gradient Descent, Stochastic Gradient Descent, Newton’s Method, etc.)
+	- The OLS method calculates the best-fitting line for the observed data by minimizing the sum of the squares of the vertical deviations from each data point to the line (if a point lies on the fitted line exactly, then its vertical deviation is 0).
+
+
