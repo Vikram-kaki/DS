@@ -46,5 +46,6 @@
         "DBSCAN",
         "Likert",
         "overfitting"
-    ]
+    ],
+    "remote.autoForwardPortsFallback": 0
 }

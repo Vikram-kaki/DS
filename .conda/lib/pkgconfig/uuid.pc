@@ -1,0 +1,11 @@
+prefix=/workspaces/DataScience/.conda
+exec_prefix=/workspaces/DataScience/.conda
+libdir=/workspaces/DataScience/.conda/lib
+includedir=/workspaces/DataScience/.conda/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
