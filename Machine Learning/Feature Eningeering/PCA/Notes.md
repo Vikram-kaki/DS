@@ -26,19 +26,17 @@ The fourth step is to select the top k eigenvectors corresponding to the k large
 
 ### Image Example
 
-Here is an example of PCA applied to a dataset of images:
-
-![PCA on Images](https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Pca_example.svg/1200px-Pca_example.svg.png)
+<html>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Pca_example.svg/1200px-Pca_example.svg.png" alt="PCA on Images">
+</html>
 
 In this example, the original images are projected onto the first two principal components, resulting in a lower-dimensional representation of the data.
 
 ## **Video Explanation**
 
-For a more in-depth explanation of PCA, watch this video:
-
-```markdown
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_UVHnbZyrUQ" frameborder="0" allowfullscreen></iframe>
-```
+<html>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/_UVHnbZyrUQ" frameborder="0" allowfullscreen></iframe>
+</html>
 
 ## **Advantages of PCA**
 
@@ -68,12 +66,12 @@ PCA is a powerful technique for reducing dimensionality and identifying patterns
 
 ### Video: PCA Tutorial
 
-```markdown
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FgakZRHPpIU" frameborder="0" allowfullscreen></iframe>
-```
+<html>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/FgakZRHPpIU" frameborder="0" allowfullscreen></iframe>
+</html>
 
 ### Video: PCA in Machine Learning
 
-```markdown
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Pmw4NXO7xlY" frameborder="0" allowfullscreen></iframe>
-```
+<html>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Pmw4NXO7xlY" frameborder="0" allowfullscreen></iframe>
+</html>
