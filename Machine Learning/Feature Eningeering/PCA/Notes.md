@@ -1,77 +1,78 @@
-# **What is PCA?**
 
-## **Principal Component Analysis (PCA)**
 
-Principal Component Analysis (PCA) is a dimensionality reduction technique used to simplify complex datasets by transforming a set of correlated features into a set of uncorrelated features called principal components.
+**Principal Component Analysis (PCA)**
+=====================================
 
-## **How PCA Works**
+PCA is a dimensionality reduction technique used to simplify complex datasets by transforming a set of correlated features into a set of uncorrelated features called principal components.
 
-### Step 1: Standardization
+**How PCA Works**
+-----------------
+
+### 1. Standardization
 
 The first step in PCA is to standardize the data by subtracting the mean and dividing by the standard deviation for each feature. This is done to ensure that all features are on the same scale.
 
-### Step 2: Covariance Matrix
+### 2. Covariance Matrix
 
 The second step is to calculate the covariance matrix, which describes the linear relationships between each pair of features.
 
-### Step 3: Eigenvalue and Eigenvector Calculation
+### 3. Eigenvalue and Eigenvector Calculation
 
 The third step is to calculate the eigenvalues and eigenvectors of the covariance matrix. The eigenvectors represent the directions of the new features, while the eigenvalues represent the importance of each feature.
 
-### Step 4: Component Selection
+### 4. Component Selection
 
 The fourth step is to select the top k eigenvectors corresponding to the k largest eigenvalues. These eigenvectors are the principal components.
 
-## **PCA in Action**
+**PCA in Action**
+-----------------
 
 ### Image Example
 
-<html>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Pca_example.svg/1200px-Pca_example.svg.png" alt="PCA on Images">
-</html>
+![PCA on Images](insert image of PCA on images)
 
 In this example, the original images are projected onto the first two principal components, resulting in a lower-dimensional representation of the data.
 
-## **Video Explanation**
+**Video Explanation**
+--------------------
 
-<html>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/_UVHnbZyrUQ" frameborder="0" allowfullscreen></iframe>
-</html>
+[Insert video of PCA explanation]
 
-## **Advantages of PCA**
+**Advantages of PCA**
+--------------------
 
-- Reduces dimensionality of the dataset
-- Identifies patterns and relationships in the data
-- Improves data visualization and clustering
-- Reduces noise and improves data quality
+* Reduces dimensionality of the dataset
+* Identifies patterns and relationships in the data
+* Improves data visualization and clustering
+* Reduces noise and improves data quality
 
-## **Common Applications of PCA**
+**Common Applications of PCA**
+-----------------------------
 
-- Image compression
-- Facial recognition
-- Gene expression analysis
-- Stock market analysis
+* Image compression
+* Facial recognition
+* Gene expression analysis
+* Stock market analysis
 
-## **Conclusion**
+**Conclusion**
+--------------
 
 PCA is a powerful technique for reducing dimensionality and identifying patterns in complex datasets. By applying PCA, you can simplify your data, improve visualization, and uncover hidden relationships.
 
-## **Further Reading**
+**Further Reading**
+-------------------
 
-- [Wikipedia: Principal Component Analysis](https://en.wikipedia.org/wiki/Principal_component_analysis)
-- [Scikit-learn: PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
-- [Khan Academy: PCA](https://www.khanacademy.org/math/linear-algebra/alternate-bases/pca/v/linear-algebra-pca-intro)
+* [Wikipedia: Principal Component Analysis](https://en.wikipedia.org/wiki/Principal_component_analysis)
+* [Scikit-learn: PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
+* [Khan Academy: PCA](https://www.khanacademy.org/math/linear-algebra/alternate-bases/pca/v/linear-algebra-pca-intro)
 
-## **Additional Resources**
+**Additional Resources**
+-------------------------
 
 ### Video: PCA Tutorial
 
-<html>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/FgakZRHPpIU" frameborder="0" allowfullscreen></iframe>
-</html>
+[Insert video of PCA tutorial]
 
 ### Video: PCA in Machine Learning
 
-<html>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/Pmw4NXO7xlY" frameborder="0" allowfullscreen></iframe>
-</html>
+[Insert video of PCA in machine learning]
