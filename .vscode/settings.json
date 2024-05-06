@@ -1,51 +1,50 @@
 {
-    "python.analysis.autoImportCompletions": true,
-    "python.analysis.typeCheckingMode": "basic",
-    "python.languageServer": "Pylance",
-    "workbench.editorAssociations": {
-        "file:/**/*.csv": "jupyter-data-wrangler"
-    },
-    "cSpell.enableFiletypes": [
-        "!python"
-    ],
-    "sqltools.connections": [
-        {
-            "mysqlOptions": {
-                "authProtocol": "default",
-                "enableSsl": "Disabled",
-                "ssl": {
-                    "ca": "C:\\Windows.old\\Users\\Asus\\AppData\\Roaming\\Python\\Python311\\site-packages\\jupyter_client\\ssh\\tunnel.py"
-                }
-            },
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 3306,
-            "driver": "MySQL",
-            "name": "Vikram",
-            "database": "MyServer",
-            "username": "Vikram",
-            "askForPassword": true
-        },
-        {
-            "mysqlOptions": {
-                "authProtocol": "default",
-                "enableSsl": "Disabled"
-            },
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 3306,
-            "driver": "MySQL",
-            "name": "Testing",
-            "username": "Vikram",
-            "database": "My_Server",
-            "askForPassword": true
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.languageServer": "Pylance",
+  "workbench.editorAssociations": {
+    "file:/**/*.csv": "jupyter-data-wrangler"
+  },
+  "cSpell.enableFiletypes": ["!python"],
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled",
+        "ssl": {
+          "ca": "C:\\Windows.old\\Users\\Asus\\AppData\\Roaming\\Python\\Python311\\site-packages\\jupyter_client\\ssh\\tunnel.py"
         }
-    ],
-    "cSpell.words": [
-        "Apriori",
-        "DBSCAN",
-        "Likert",
-        "overfitting"
-    ],
-    "remote.autoForwardPortsFallback": 0
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "Vikram",
+      "database": "MyServer",
+      "username": "Vikram",
+      "askForPassword": true
+    },
+    {
+      "mysqlOptions": {
+        "authProtocol": "default",
+        "enableSsl": "Disabled"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "Testing",
+      "username": "Vikram",
+      "database": "My_Server",
+      "askForPassword": true
+    }
+  ],
+  "cSpell.words": [
+    "Apriori",
+    "DBSCAN",
+    "Interpretability",
+    "Likert",
+    "overfitting"
+  ],
+  "remote.autoForwardPortsFallback": 0
 }
